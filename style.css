@@ -1,0 +1,85 @@
+.logo-image {
+  width:200px;
+  height: 150px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: #FFCBED;
+  align-items: center; 
+  position: fixed; 
+  font-family: 'Bellota', cursive;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+nav {
+  width: 100%;
+}
+
+a {
+  color: #8F898D;
+}
+
+a:link {
+  color: #8F898D;
+}
+
+a:visited {
+  color: #8F898D;
+}
+
+a:hover {
+  color: #8F898D;
+}
+
+.sign-up-page {
+  height: 300px;
+  width: 100%;
+  background-color: #EDFFCB;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.sign-up-form {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.video-page {
+  height: 400px;
+  background-color: #CBEDFF;
+  justify-content: center;
+  align-item: center;
+  display: flex;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.video {
+  text-align: center;
+}
+
+.whats-new {
+  height: 400px;
+  background-image: url("https://cdn.dribbble.com/users/1124691/screenshots/3929971/5-shot.png");
+  justify-content: center;
+  align-item: center;
+  display: flex;
+  background-position: center;
+  font-family: 'MuseoModerno', cursive;
+}
+
+@media only screen and (max-width:600px) {
+  nav {
+    display: none;
+  }
+}
